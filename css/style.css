@@ -202,11 +202,7 @@ nav > a {
   margin: 0;
   width: 100%;
   height: 90vh;
-<<<<<<< HEAD
   background-image: url("../image/vert_clair.32446.jpg");
-=======
-  background-image: url("./image/vert_clair.32446.jpg");
->>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
 }
 
 .container div {
@@ -285,6 +281,8 @@ main {
       grid-template-rows: 1fr 150px 1fr;
   width: 100%;
   height: 90vh;
+  /*contact page*/
+  /*project page*/
 }
 
 main div:nth-child(1) {
@@ -309,11 +307,7 @@ main div:nth-child(1) img {
 }
 
 main div:nth-child(2) {
-<<<<<<< HEAD
   background-image: url("../image/unnamed.jpg");
-=======
-  background-image: url("./image/unnamed.jpg");
->>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -408,7 +402,7 @@ main div:nth-child(4) p {
   font-weight: bolder;
 }
 
-main div:nth-child(5) {
+main div:nth-child(4):nth-child(5) {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
@@ -420,21 +414,21 @@ main div:nth-child(5) {
   padding: 10px;
 }
 
-main div:nth-child(5) h5 {
+main div:nth-child(4):nth-child(5) h5 {
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
   color: white;
 }
 
-main div:nth-child(5) h4 {
+main div:nth-child(4):nth-child(5) h4 {
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
   color: white;
 }
 
-main div:nth-child(5) .it {
+main div:nth-child(4):nth-child(5) .it {
   width: 200px;
   height: 30px;
   border: 1px solid black;
@@ -442,14 +436,14 @@ main div:nth-child(5) .it {
   padding: 0;
 }
 
-main div:nth-child(5) .it span {
+main div:nth-child(4):nth-child(5) .it span {
   display: block;
   width: 70%;
   height: 30px;
   background-color: white;
 }
 
-main div:nth-child(5) .english {
+main div:nth-child(4):nth-child(5) .english {
   width: 200px;
   height: 30px;
   border: 1px solid black;
@@ -457,14 +451,14 @@ main div:nth-child(5) .english {
   padding: 0;
 }
 
-main div:nth-child(5) .english span {
+main div:nth-child(4):nth-child(5) .english span {
   display: block;
   width: 60%;
   height: 30px;
   background-color: white;
 }
 
-main div:nth-child(5) .french {
+main div:nth-child(4):nth-child(5) .french {
   width: 200px;
   height: 30px;
   border: 1px solid black;
@@ -472,14 +466,14 @@ main div:nth-child(5) .french {
   padding: 0;
 }
 
-main div:nth-child(5) .french span {
+main div:nth-child(4):nth-child(5) .french span {
   display: block;
   width: 85%;
   height: 30px;
   background-color: white;
 }
 
-main div:nth-child(5) .arabic {
+main div:nth-child(4):nth-child(5) .arabic {
   width: 200px;
   height: 30px;
   border: 1px solid black;
@@ -487,14 +481,14 @@ main div:nth-child(5) .arabic {
   padding: 0;
 }
 
-main div:nth-child(5) .arabic span {
+main div:nth-child(4):nth-child(5) .arabic span {
   display: block;
   width: 99%;
   height: 30px;
   background-color: white;
 }
 
-main div:nth-child(5) .german {
+main div:nth-child(4):nth-child(5) .german {
   width: 200px;
   height: 30px;
   border: 1px solid black;
@@ -502,28 +496,23 @@ main div:nth-child(5) .german {
   padding: 0;
 }
 
-main div:nth-child(5) .german span {
+main div:nth-child(4):nth-child(5) .german span {
   display: block;
   width: 45%;
   height: 30px;
   background-color: white;
 }
 
-/*contact page*/
-form {
+main form {
   width: 100%;
   height: 90vh;
-<<<<<<< HEAD
   background-image: url("../image/vert_clair.32446.jpg");
-=======
-  background-image: url("./image/vert_clair.32446.jpg");
->>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
   margin: auto;
   padding: 10px;
   position: relative;
 }
 
-form label {
+main form label {
   margin: 10px;
   color: white;
   display: -webkit-box;
@@ -535,7 +524,7 @@ form label {
           flex-direction: column;
 }
 
-form input {
+main form input {
   margin-top: 30px;
   font-size: 30px;
   display: -webkit-box;
@@ -550,11 +539,11 @@ form input {
           justify-content: center;
 }
 
-form strong {
+main form strong {
   color: white;
 }
 
-form p {
+main form p {
   font-size: 100px;
   position: absolute;
   left: 40%;
@@ -569,18 +558,13 @@ form p {
           animation-direction: normal;
 }
 
-/*project page*/
-.project {
+main .project {
   width: 100%;
   height: 95vh;
-<<<<<<< HEAD
   background-image: url("../image/vert_clair.32446.jpg");
-=======
-  background-image: url("./image/vert_clair.32446.jpg");
->>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
 }
 
-.project div:nth-child(1) {
+main .project div:nth-child(1) {
   font-family: sans-serif;
   font-size: 15px;
   background-color: #f0f00e;
@@ -590,18 +574,18 @@ form p {
   padding: 10px;
 }
 
-.project div:nth-child(1) li {
+main .project div:nth-child(1) li {
   margin: 10px;
 }
 
-.project div:nth-child(1) h1,
-.project div:nth-child(1) ol,
-.project div:nth-child(1) p {
+main .project div:nth-child(1) h1,
+main .project div:nth-child(1) ol,
+main .project div:nth-child(1) p {
   color: #eb2d4c;
 }
 
 @media screen and (max-width: 1200px) {
-  main div:nth-child(4) img {
+  main main div:nth-child(4) img {
     width: 80px;
     -webkit-animation-name: translated;
             animation-name: translated;
@@ -612,7 +596,7 @@ form p {
     -webkit-animation-direction: normal;
             animation-direction: normal;
   }
-  main div:nth-child(4) p {
+  main main div:nth-child(4) p {
     font-size: 10px;
     -webkit-animation-name: translated1;
             animation-name: translated1;
@@ -623,67 +607,63 @@ form p {
     -webkit-animation-direction: normal;
             animation-direction: normal;
   }
-<<<<<<< HEAD
-  main div:nth-child(3) h2 {
+  main main div:nth-child(3) h2 {
     font-size: 12px;
   }
-  main div:nth-child(3) li {
+  main main div:nth-child(3) li {
     font-size: 10px;
   }
-  form label, form input {
-=======
-  form label,
-  form input {
->>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
+  main form label,
+  main form input {
     width: 100px;
   }
-  form p {
+  main form p {
     font-size: 50px;
   }
-  .container div:nth-child(3) img {
+  main .container div:nth-child(3) img {
     width: 100px;
     height: 100px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .project div:nth-child(1) {
+  main .project div:nth-child(1) {
     background-color: white;
   }
-  .project div:nth-child(1) h1,
-  .project div:nth-child(1) p,
-  .project div:nth-child(1) ol {
+  main .project div:nth-child(1) h1,
+  main .project div:nth-child(1) p,
+  main .project div:nth-child(1) ol {
     font-size: medium;
     color: violet;
   }
-  form label,
-  form input {
+  main form label,
+  main form input {
     width: 50px;
   }
-  nav > a {
+  main nav > a {
     font-size: 15px;
   }
-  .container div:nth-child(1) h1 {
+  main .container div:nth-child(1) h1 {
     font-size: 45px;
   }
-  .container div:nth-child(2) {
+  main .container div:nth-child(2) {
     font-size: 30px;
   }
-  .container div:nth-child(2) img {
+  main .container div:nth-child(2) img {
     height: 100px;
     width: 100px;
     margin: auto;
   }
-  .container div:nth-child(3) {
+  main .container div:nth-child(3) {
     font-size: 15px;
     padding: 10px;
   }
-  .container div:nth-child(3) img {
+  main .container div:nth-child(3) img {
     height: 100px;
     width: 100px;
     margin: auto;
   }
-  main {
+  main main {
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 1fr 100px 1fr;
@@ -693,24 +673,24 @@ form p {
     width: 100%;
     height: 90vh;
   }
-  main div:nth-child(3) h2 {
+  main main div:nth-child(3) h2 {
     font-size: 15px;
   }
-  main div:nth-child(3) ul li {
+  main main div:nth-child(3) ul li {
     font-size: 10px;
   }
-  main div:nth-child(1) .photo {
+  main main div:nth-child(1) .photo {
     width: 100px;
     border: none;
   }
-  main div:nth-child(1) .photo img {
+  main main div:nth-child(1) .photo img {
     width: 80px;
     height: 50px;
   }
-  main div:nth-child(1) p {
+  main main div:nth-child(1) p {
     font-size: 10px;
   }
-  main div:nth-child(4) img {
+  main main div:nth-child(4) img {
     width: 100px;
     height: 100px;
     -webkit-animation-name: translated;
@@ -722,7 +702,7 @@ form p {
     -webkit-animation-direction: normal;
             animation-direction: normal;
   }
-  main div:nth-child(4) p {
+  main main div:nth-child(4) p {
     font-size: 10px;
     -webkit-animation-name: translated1;
             animation-name: translated1;
@@ -733,44 +713,44 @@ form p {
     -webkit-animation-direction: normal;
             animation-direction: normal;
   }
-  main div:nth-child(5) h4,
-  main div:nth-child(5) h5 {
+  main main div:nth-child(5) h4,
+  main main div:nth-child(5) h5 {
     font-size: 15px;
   }
-  main div:nth-child(5) .arabic,
-  main div:nth-child(5) .french,
-  main div:nth-child(5) .english,
-  main div:nth-child(5) .german,
-  main div:nth-child(5) .it {
+  main main div:nth-child(5) .arabic,
+  main main div:nth-child(5) .french,
+  main main div:nth-child(5) .english,
+  main main div:nth-child(5) .german,
+  main main div:nth-child(5) .it {
     width: 70px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  nav > a {
+  main nav > a {
     font-size: 8px;
   }
-  .container div:nth-child(1) h1 {
+  main .container div:nth-child(1) h1 {
     font-size: 20px;
   }
-  .container div:nth-child(2) {
+  main .container div:nth-child(2) {
     font-size: 20px;
   }
-  .container div:nth-child(2) img {
+  main .container div:nth-child(2) img {
     height: 50px;
     width: 50px;
     margin: auto;
   }
-  .container div:nth-child(3) {
+  main .container div:nth-child(3) {
     font-size: xx-small;
     padding: 10px;
   }
-  .container div:nth-child(3) img {
+  main .container div:nth-child(3) img {
     height: 50px;
     width: 50px;
     margin: auto;
   }
-  main {
+  main main {
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 1fr 100px 1fr;
@@ -780,39 +760,39 @@ form p {
     width: 100%;
     height: 90vh;
   }
-  main div:nth-child(3) h2 {
+  main main div:nth-child(3) h2 {
     font-size: 15px;
   }
-  main div:nth-child(3) ul li {
+  main main div:nth-child(3) ul li {
     font-size: 7px;
   }
-  main div:nth-child(1) .photo {
+  main main div:nth-child(1) .photo {
     width: 100px;
     border: none;
   }
-  main div:nth-child(1) .photo img {
+  main main div:nth-child(1) .photo img {
     width: 50px;
     height: 50px;
   }
-  main div:nth-child(1) p {
+  main main div:nth-child(1) p {
     font-size: 5px;
   }
-  main div:nth-child(4) img {
+  main main div:nth-child(4) img {
     width: 40px;
     height: 40px;
   }
-  main div:nth-child(4) p {
+  main main div:nth-child(4) p {
     font-size: 3px;
   }
-  main div:nth-child(5) h4,
-  main div:nth-child(5) h5 {
+  main main div:nth-child(5) h4,
+  main main div:nth-child(5) h5 {
     font-size: 15px;
   }
-  main div:nth-child(5) .arabic,
-  main div:nth-child(5) .french,
-  main div:nth-child(5) .english,
-  main div:nth-child(5) .german,
-  main div:nth-child(5) .it {
+  main main div:nth-child(5) .arabic,
+  main main div:nth-child(5) .french,
+  main main div:nth-child(5) .english,
+  main main div:nth-child(5) .german,
+  main main div:nth-child(5) .it {
     width: 70px;
   }
 }
