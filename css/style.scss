@@ -15,13 +15,13 @@
     
 @include keyframes(bgImage){
     0%{
-        background-image: url("./image/unnamed.jpg");
+        background-image: url("../image/unnamed.jpg");
     }
     50%{
-        background-image: url("./image/multicult_radio_gug_big_72547.png");
+        background-image: url("../image/multicult_radio_gug_big_72547.png");
     }
     100%{
-        background-image: url("./image/kef-150312-v.jpg");
+        background-image: url("../image/kef-150312-v.jpg");
     }
 }
 @mixin bgImage {
@@ -138,7 +138,7 @@ nav{display: inline-block;
     margin: 0;
     width: 100%;
     height: 90vh;
-    background-image: url("./image/vert_clair.32446.jpg");
+    background-image: url("../image/vert_clair.32446.jpg");
     div{margin: 0;
         &:nth-child(2){
             padding: 10px;
@@ -201,7 +201,7 @@ nav{display: inline-block;
 /*about me page*/
 main{display: grid;
     grid-template-columns: 300px 1fr 300px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 150px 1fr;
     width: 100%;
     height:90vh;
     div{
@@ -219,7 +219,7 @@ main{display: grid;
             background-color: rgb(143, 192, 143);
         }
         &:nth-child(2){
-            background-image: url("./image/unnamed.jpg");
+            background-image: url("../image/unnamed.jpg");
             
             grid-column: 2/3;
             grid-row: 1/2;
@@ -234,12 +234,14 @@ main{display: grid;
             
             h2{
                 text-align: center;
-                font-size: 30px;
+                font-size: 20px;
                 color: green;
             }
             li{
-                font-size: 20px;
+                font-size: 15px;
                 font-weight: bolder;
+                margin: 0;
+                padding: 0;
             }
 
         }
@@ -255,7 +257,7 @@ main{display: grid;
            
             h3{
                 text-align: center;
-                font-size: 30px;
+                font-size: 20px;
                 color: green;
             }
             img{width: 250px;
@@ -274,7 +276,7 @@ main{display: grid;
                 @include translation();
                 
             
-                  font-size: 20px;
+                  font-size: 15px;
                   font-weight: bolder;
               
             }
@@ -373,7 +375,7 @@ form{
     
     width: 100%;
     height: 90vh;
-    background-image:url("./image/vert_clair.32446.jpg") ;
+    background-image:url("../image/vert_clair.32446.jpg") ;
     
     
     margin: auto;
@@ -412,7 +414,7 @@ form{
 .project{
     width: 100%;
     height: 95vh;
-    background-image: url("./image/vert_clair.32446.jpg");
+    background-image: url("../image/vert_clair.32446.jpg");
     
     div{
         &:nth-child(1){font-family: sans-serif;
@@ -450,6 +452,15 @@ form{
                 p{
                     font-size: 10px;
                     @include translated1();
+                }
+            }
+            &:nth-child(3){
+                h2{
+                    font-size: 12px;
+
+                }
+                li{
+                    font-size: 10px;
                 }
             }
         }
