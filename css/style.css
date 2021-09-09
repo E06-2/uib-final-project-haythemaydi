@@ -202,7 +202,11 @@ nav > a {
   margin: 0;
   width: 100%;
   height: 90vh;
+<<<<<<< HEAD
   background-image: url("../image/vert_clair.32446.jpg");
+=======
+  background-image: url("./image/vert_clair.32446.jpg");
+>>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
 }
 
 .container div {
@@ -305,7 +309,11 @@ main div:nth-child(1) img {
 }
 
 main div:nth-child(2) {
+<<<<<<< HEAD
   background-image: url("../image/unnamed.jpg");
+=======
+  background-image: url("./image/unnamed.jpg");
+>>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -505,7 +513,11 @@ main div:nth-child(5) .german span {
 form {
   width: 100%;
   height: 90vh;
+<<<<<<< HEAD
   background-image: url("../image/vert_clair.32446.jpg");
+=======
+  background-image: url("./image/vert_clair.32446.jpg");
+>>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
   margin: auto;
   padding: 10px;
   position: relative;
@@ -561,7 +573,11 @@ form p {
 .project {
   width: 100%;
   height: 95vh;
+<<<<<<< HEAD
   background-image: url("../image/vert_clair.32446.jpg");
+=======
+  background-image: url("./image/vert_clair.32446.jpg");
+>>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
 }
 
 .project div:nth-child(1) {
@@ -578,7 +594,9 @@ form p {
   margin: 10px;
 }
 
-.project div:nth-child(1) h1, .project div:nth-child(1) ol, .project div:nth-child(1) p {
+.project div:nth-child(1) h1,
+.project div:nth-child(1) ol,
+.project div:nth-child(1) p {
   color: #eb2d4c;
 }
 
@@ -605,6 +623,7 @@ form p {
     -webkit-animation-direction: normal;
             animation-direction: normal;
   }
+<<<<<<< HEAD
   main div:nth-child(3) h2 {
     font-size: 12px;
   }
@@ -612,6 +631,10 @@ form p {
     font-size: 10px;
   }
   form label, form input {
+=======
+  form label,
+  form input {
+>>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
     width: 100px;
   }
   form p {
@@ -627,11 +650,14 @@ form p {
   .project div:nth-child(1) {
     background-color: white;
   }
-  .project div:nth-child(1) h1, .project div:nth-child(1) p, .project div:nth-child(1) ol {
+  .project div:nth-child(1) h1,
+  .project div:nth-child(1) p,
+  .project div:nth-child(1) ol {
     font-size: medium;
     color: violet;
   }
-  form label, form input {
+  form label,
+  form input {
     width: 50px;
   }
   nav > a {
@@ -707,10 +733,15 @@ form p {
     -webkit-animation-direction: normal;
             animation-direction: normal;
   }
-  main div:nth-child(5) h4, main div:nth-child(5) h5 {
+  main div:nth-child(5) h4,
+  main div:nth-child(5) h5 {
     font-size: 15px;
   }
-  main div:nth-child(5) .arabic, main div:nth-child(5) .french, main div:nth-child(5) .english, main div:nth-child(5) .german, main div:nth-child(5) .it {
+  main div:nth-child(5) .arabic,
+  main div:nth-child(5) .french,
+  main div:nth-child(5) .english,
+  main div:nth-child(5) .german,
+  main div:nth-child(5) .it {
     width: 70px;
   }
 }
@@ -773,10 +804,15 @@ form p {
   main div:nth-child(4) p {
     font-size: 3px;
   }
-  main div:nth-child(5) h4, main div:nth-child(5) h5 {
+  main div:nth-child(5) h4,
+  main div:nth-child(5) h5 {
     font-size: 15px;
   }
-  main div:nth-child(5) .arabic, main div:nth-child(5) .french, main div:nth-child(5) .english, main div:nth-child(5) .german, main div:nth-child(5) .it {
+  main div:nth-child(5) .arabic,
+  main div:nth-child(5) .french,
+  main div:nth-child(5) .english,
+  main div:nth-child(5) .german,
+  main div:nth-child(5) .it {
     width: 70px;
   }
 }
