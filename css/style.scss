@@ -434,18 +434,11 @@ form {
 .project {
     width: 100%;
     height: 95vh;
-<<<<<<< HEAD
     background-image: url("../image/vert_clair.32446.jpg");
-    
-    div{
-        &:nth-child(1){font-family: sans-serif;
-=======
-    background-image: url("./image/vert_clair.32446.jpg");
 
     div {
         &:nth-child(1) {
             font-family: sans-serif;
->>>>>>> 7de336b3a42e5f7e19c002afeadd40f4955e29ce
             font-size: 15px;
             background-color: rgb(240, 240, 14);
             width: 100%;
